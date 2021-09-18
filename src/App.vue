@@ -12,38 +12,38 @@ import examples from "./components/examples.vue";
         flex flex-row
         justify-center
         -mb-px
-        text-lg text-gray-500
+        text-lg text-blue-200
         font-bold
       "
     >
       <router-link
         class="mr-8 py-3 no-underline border-n-2"
         to="/"
-        active-class=" text-green-400"
+        active-class=" text-purple-600"
         >Home</router-link
       >
       <router-link
         class="mr-8 py-3 no-underline border-n-2"
         to="/example1"
-        active-class=" text-green-400"
+        active-class=" text-blue-500"
         >Example 1
       </router-link>
       <router-link
         class="mr-8 py-3 no-underline border-n-2"
         to="/example2"
-        active-class=" text-green-400"
+        active-class=" text-pink-400"
         >Example 2
       </router-link>
       <router-link
         class="mr-8 py-3 no-underline border-n-2"
         to="/example3"
-        active-class=" text-green-400"
+        active-class=" text-pink-600"
         >Example 3
       </router-link>
       <router-link
         class="mr-8 py-3 no-underline border-n-2"
         to="/tailwind"
-        active-class=" text-green-400"
+        active-class=" text-gray-400"
         >Tailwind</router-link
       >
     </nav>
